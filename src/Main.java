@@ -3,13 +3,11 @@ public class Main {
         int start = 100;
         int add = 2000;
         int bonus = add / 100;
-        int totalBonus = start + add + bonus;
-        int totalNoBonus = start+add;
         System.out.println("Добавлено бонусов: " + bonus);
         if (add > 1000) {
-            System.out.println("Баланс: " + totalBonus);
+            System.out.println("Баланс: " + (start + add + bonus));
         } else {
-            System.out.println("Баланс: " + totalNoBonus);
+            System.out.println("Баланс: " + (start + add));
         }
     }
 }
