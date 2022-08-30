@@ -5,6 +5,7 @@ public class Main {
         int bonus = add / 100;
         int totalBonus = start + add + bonus;
         int totalNoBonus = start+add;
+        System.out.println("Добавлено бонусов: " + bonus);
         if (add > 1000) {
             System.out.println("Баланс: " + totalBonus);
         } else {
